@@ -1,0 +1,21 @@
+{
+  "name": "babylon-vs",
+  "version": "0.0.7",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "ci": "biome ci src"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^7.20.1",
+    "@babylonjs/materials": "^7.20.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "typescript": "5.5.4",
+    "vite": "^5.4.0"
+  }
+}
